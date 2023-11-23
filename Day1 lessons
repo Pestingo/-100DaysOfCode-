@@ -1,0 +1,83 @@
+1. Variables:
+
+Variables are used to store and manage data in a program. In JavaScript, you can declare variables using the var, let, or const keywords.
+
+// Using var (older way)
+var myVar = 10;
+
+// Using let (introduced in ES6, allows reassignment)
+let myLet = 'Hello';
+
+// Using const (introduced in ES6, constant, cannot be reassigned)
+const myConst = 3.14;
+
+2. Primitive Data Types:
+
+JavaScript has several primitive data types, including number, string, boolean, null, undefined, and symbol.
+
+let num = 42; // number
+let greeting = 'Hello, World!'; // string
+let isTrue = true; // boolean
+let nothing = null; // null
+let notDefined; // undefined
+let uniqueID = Symbol('id'); // symbol
+
+3.Objects:
+
+Objects are used to group related data and functions. They consist of key-value pairs.
+
+// Object literal
+let person = {
+  name: 'John',
+  age: 25,
+  isStudent: false
+};
+
+4.Operators and Expressions:
+
+Operators are symbols that perform operations on variables and values. Expressions are combinations of values and operators.
+
+let a = 5;
+let b = 10;
+
+let sum = a + b; // Addition
+let product = a * b; // Multiplication
+let isGreater = a > b; // Comparison
+
+5. Conditional Expressions:
+
+Conditional statements allow you to execute different code based on different conditions.
+
+let age = 20;
+
+if (age >= 18) {
+  console.log('You are an adult.');
+} else {
+  console.log('You are a minor.');
+}
+
+
+6.Switch:
+
+The switch statement is used to perform different actions based on different conditions.
+
+let day = 'Monday';
+
+switch (day) {
+  case 'Monday':
+    console.log('It\'s the start of the week.');
+    break;
+  case 'Friday':
+    console.log('TGIF!');
+    break;
+  default:
+    console.log('It\'s a regular day.');
+}
+
+
+You have covered the fundamentals here.
+If you keep expanding on these ideas, you will develop a strong foundation in JavaScript programming.
+Please do not hesitate to ask questions if you have any specific queries or would like more information on any particular subject!
+
+DAY 1 DONE!!!!!!!!
+
